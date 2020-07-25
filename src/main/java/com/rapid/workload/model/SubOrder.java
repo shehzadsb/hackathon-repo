@@ -29,14 +29,7 @@ public class SubOrder {
 	@Column(name = "StatusID")
 	private Integer statusId;
 	
-	@Column(name = "Topping1")
-	private Integer topping1;
 	
-	@Column(name = "Topping2")
-	private Integer topping2;
-	
-	@Column(name = "Topping3")
-	private Integer topping3;
 
 	public Integer getSubOrderId() {
 		return subOrderId;
@@ -86,29 +79,9 @@ public class SubOrder {
 		this.statusId = statusId;
 	}
 
-	public Integer getTopping1() {
-		return topping1;
-	}
+	
 
-	public void setTopping1(Integer topping1) {
-		this.topping1 = topping1;
-	}
-
-	public Integer getTopping2() {
-		return topping2;
-	}
-
-	public void setTopping2(Integer topping2) {
-		this.topping2 = topping2;
-	}
-
-	public Integer getTopping3() {
-		return topping3;
-	}
-
-	public void setTopping3(Integer topping3) {
-		this.topping3 = topping3;
-	}
+	
 	
 	
 	
